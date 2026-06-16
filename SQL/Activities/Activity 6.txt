@@ -1,0 +1,18 @@
+-- ACTIVITY 6--
+--Get all salesman ids without any repeated values
+SELECT DISTINCT salesman_id FROM Orders;
+
+
+--Display the order number ordered by date in ascending order
+SELECT Order_no,order_date from Orders ORDER BY order_date ASC;
+
+--Display the order number ordered by purchase amount in descending order
+SELECT Order_no,purchase_amount from Orders ORDER BY purchase_amount DESC;
+
+
+--Display the full data of orders that have purchase amount less than 500.
+SELECT * FROM Orders WHERE purchase_amount < 500;
+
+
+--Display the full data of orders that have purchase amount between 1000 and 2000.
+SELECT * FROM Orders WHERE purchase_amount BETWEEN 1000 AND 2000;
