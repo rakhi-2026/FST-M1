@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM" >
+    
+    <test name="OrangeHRM_Activities">
+    	<classes>
+            <class name="OrangeHRM.Activity1" />
+            <class name="OrangeHRM.Activity2" />
+            <class name="OrangeHRM.Activity3" />
+            <class name="OrangeHRM.Activity4" />
+            <class name="OrangeHRM.Activity5" />
+            <class name="OrangeHRM.Activity6" />
+            <class name="OrangeHRM.Activity7" />
+            <class name="OrangeHRM.Activity8" />
+        </classes>
+    </test>
+</suite>
