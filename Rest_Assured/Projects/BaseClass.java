@@ -12,7 +12,7 @@ public class BaseClass {
 	String baseURI = "https://api.github.com";
 	String pubSSHKeys = "";
 	int id = 0;
-	String authToken = "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";
+	String authToken = "xxxxx";
 	RequestSpecification requestSpec;
 	
 	@BeforeClass
