@@ -1,0 +1,108 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\FST Training\FST_Git> git clone git@github.com:rakhi-2026/FST-Practice-Repo-RakhiDas.git
+Cloning into 'FST-Practice-Repo-RakhiDas'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\FST Training\FST_Git> git pull
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\FST Training\FST_Git> cd FST-Practice-Repo-RakhiDas
+PS C:\FST Training\FST_Git\FST-Practice-Repo-RakhiDas> git pull
+Already up to date.
+PS C:\FST Training\FST_Git\FST-Practice-Repo-RakhiDas> git add .
+warning: in the working copy of 'FST-Appium/test-output/Default suite/Default test.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/Default suite/Default test.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/emailable-report.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/jquery-3.6.0.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity1.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity2.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity3.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity4.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity5.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-activities.Activity6.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/junitreports/TEST-examples.FirstTest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/testng-reports.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/testng-reports.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/testng-reports1.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/testng-reports2.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FST-Appium/test-output/testng-results.xml', LF will be replaced by CRLF the next time Git touches it
+PS C:\FST Training\FST_Git\FST-Practice-Repo-RakhiDas> git commit -m "Added Appium Activity folder"
+[main 760115f] Added Appium Activity folder
+ 54 files changed, 2629 insertions(+)
+ create mode 100644 FST-Appium/.classpath
+ create mode 100644 FST-Appium/.project
+ create mode 100644 FST-Appium/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 FST-Appium/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 FST-Appium/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 FST-Appium/pom.xml
+ create mode 100644 FST-Appium/src/test/java/activities/ActionBase.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity1.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity2.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity3.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity4.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity5.java
+ create mode 100644 FST-Appium/src/test/java/activities/Activity6.java
+ create mode 100644 FST-Appium/src/test/java/examples/FirstTest.java
+ create mode 100644 FST-Appium/src/test/resources/Calculator.apk
+ create mode 100644 FST-Appium/src/test/resources/ToDo.apk
+ create mode 100644 FST-Appium/target/classes/META-INF/MANIFEST.MF
+ create mode 100644 FST-Appium/target/classes/META-INF/maven/com.example/FST-Appium/pom.properties
+ create mode 100644 FST-Appium/target/classes/META-INF/maven/com.example/FST-Appium/pom.xml
+ create mode 100644 FST-Appium/target/test-classes/Calculator.apk
+ create mode 100644 FST-Appium/target/test-classes/ToDo.apk
+ create mode 100644 FST-Appium/target/test-classes/activities/ActionBase.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity1.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity2.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity3.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity4.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity5.class
+ create mode 100644 FST-Appium/target/test-classes/activities/Activity6.class
+ create mode 100644 FST-Appium/target/test-classes/examples/FirstTest.class
+ create mode 100644 FST-Appium/test-output/Default suite/Default test.html
+ create mode 100644 FST-Appium/test-output/Default suite/Default test.xml
+ create mode 100644 FST-Appium/test-output/Default suite/testng-failed.xml
+ create mode 100644 FST-Appium/test-output/bullet_point.png
+ create mode 100644 FST-Appium/test-output/collapseall.gif
+ create mode 100644 FST-Appium/test-output/emailable-report.html
+ create mode 100644 FST-Appium/test-output/failed.png
+ create mode 100644 FST-Appium/test-output/index.html
+ create mode 100644 FST-Appium/test-output/jquery-3.6.0.min.js
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity1.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity2.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity3.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity4.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity5.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-activities.Activity6.xml
+ create mode 100644 FST-Appium/test-output/junitreports/TEST-examples.FirstTest.xml
+ create mode 100644 FST-Appium/test-output/navigator-bullet.png
+ create mode 100644 FST-Appium/test-output/passed.png
+ create mode 100644 FST-Appium/test-output/skipped.png
+ create mode 100644 FST-Appium/test-output/testng-failed.xml
+ create mode 100644 FST-Appium/test-output/testng-reports.css
+ create mode 100644 FST-Appium/test-output/testng-reports.js
+ create mode 100644 FST-Appium/test-output/testng-reports1.css
+ create mode 100644 FST-Appium/test-output/testng-reports2.js
+ create mode 100644 FST-Appium/test-output/testng-results.xml
+PS C:\FST Training\FST_Git\FST-Practice-Repo-RakhiDas> git push origin main
+Enumerating objects: 73, done.
+Counting objects: 100% (73/73), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (66/66), done.
+Writing objects: 100% (72/72), 3.65 MiB | 1.91 MiB/s, done.
+Total 72 (delta 16), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (16/16), done.
+To github.com:rakhi-2026/FST-Practice-Repo-RakhiDas.git
+   3a6364f..760115f  main -> main
+PS C:\FST Training\FST_Git\FST-Practice-Repo-RakhiDas>
